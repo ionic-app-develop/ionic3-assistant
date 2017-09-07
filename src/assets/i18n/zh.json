@@ -2,10 +2,10 @@
   "BACK_BUTTON_TEXT" : "Back",
 
   "NAME": "Name",
-  "EMAIL": "Email",
-  "USERNAME": "Username",
-  "PASSWORD": "Password",
-  "LOGIN": "Sign in",
+  "EMAIL": "登录邮箱",
+  "USERNAME": "用户名",
+  "PASSWORD": "密码",
+  "LOGIN": "登录",
   "SIGNUP": "Sign up",
 
   "TAB1_TITLE": "待办",
@@ -17,14 +17,14 @@
   "TUTORIAL_SKIP_BUTTON" : "Skip",
   "TUTORIAL_CONTINUE_BUTTON" : "Continue",
 
-  "TUTORIAL_SLIDE1_TITLE": "Welcome to the Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "The <b>Ionic Super Starter</b> is a fully-featured Ionic starter with many pre-built pages and best practices.",
+  "TUTORIAL_SLIDE1_TITLE": "Welcome to the Patrol Assistant",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "The <b>Patrol Assistant</b> is a fully-featured Ionic starter with many pre-built pages and best practices.",
 
-  "TUTORIAL_SLIDE2_TITLE": "How to use the Super Starter",
+  "TUTORIAL_SLIDE2_TITLE": "How to use the Patrol Assistant",
   "TUTORIAL_SLIDE2_DESCRIPTION": "Assemble the various page types you want and remove the ones you don't. We've provided many common mobile app page layouts, like login and signup pages, tabs, and this tutorial page.",
 
   "TUTORIAL_SLIDE3_TITLE": "Getting Started",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Need help? Check out the Super Starter README for a full tutorial",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Need help? Check out the Patrol Assistant README for a full tutorial",
 
   "TUTORIAL_SLIDE4_TITLE": "Ready to Play?",
 
@@ -42,9 +42,9 @@
 
   "WELCOME_TITLE": "Welcome",
 
-  "LOGIN_TITLE": "Sign in",
+  "LOGIN_TITLE": "登录",
   "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
-  "LOGIN_BUTTON": "Sign in",
+  "LOGIN_BUTTON": "登录",
   "SIGNUP_TITLE": "Sign up",
   "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
   "SIGNUP_BUTTON": "Sign up",

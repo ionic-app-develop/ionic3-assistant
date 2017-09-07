@@ -12,10 +12,10 @@ import { TranslateService } from '@ngx-translate/core';
  *
  */
 @Component({
-  selector: 'page-settings',
-  templateUrl: 'settings.html'
+  selector: 'page-tabs-my',
+  templateUrl: 'tabs-my.html'
 })
-export class SettingsPage {
+export class MyPage {
   // Our local settings object
   options: any;
 
@@ -32,7 +32,7 @@ export class SettingsPage {
   pageTitleKey: string = 'SETTINGS_TITLE';
   pageTitle: string;
 
-  subSettings: any = SettingsPage;
+  subSettings: any = MyPage;
 
   constructor(public navCtrl: NavController,
     public settings: Settings,

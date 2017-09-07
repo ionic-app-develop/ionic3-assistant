@@ -5,18 +5,13 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { CardsPage } from '../pages/cards/cards';
-import { ContentPage } from '../pages/content/content';
 import { FirstRunPage } from '../pages/pages';
-import { ListMasterPage } from '../pages/list-master/list-master';
+import { TodoPage } from '../pages/tabs-todo/tabs-todo';
 import { LoginPage } from '../pages/login/login';
-import { MapPage } from '../pages/map/map';
-import { MenuPage } from '../pages/menu/menu';
-import { SearchPage } from '../pages/search/search';
-import { SettingsPage } from '../pages/settings/settings';
-import { SignupPage } from '../pages/signup/signup';
+import { HistoryPage } from '../pages/tabs-history/tabs-history';
+import { MyPage } from '../pages/tabs-my/tabs-my';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
-import { WelcomePage } from '../pages/welcome/welcome';
 
 import { Settings } from '../providers/providers';
 
@@ -48,17 +43,12 @@ export class MyApp {
 
   pages: any[] = [
     { title: 'Tutorial', component: TutorialPage },
-    { title: 'Welcome', component: WelcomePage },
     { title: 'Tabs', component: TabsPage },
     { title: 'Cards', component: CardsPage },
-    { title: 'Content', component: ContentPage },
     { title: 'Login', component: LoginPage },
-    { title: 'Signup', component: SignupPage },
-    { title: 'Map', component: MapPage },
-    { title: 'Master Detail', component: ListMasterPage },
-    { title: 'Menu', component: MenuPage },
-    { title: 'Settings', component: SettingsPage },
-    { title: 'Search', component: SearchPage }
+    { title: 'Master Detail', component: TodoPage },
+    { title: 'Settings', component: MyPage },
+    { title: 'Search', component: HistoryPage }
   ]
 
   constructor(private translate: TranslateService, private platform: Platform, settings: Settings, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen) {

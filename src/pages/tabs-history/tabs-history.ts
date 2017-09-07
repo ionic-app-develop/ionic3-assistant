@@ -9,11 +9,11 @@ import { Items } from '../../providers/providers';
 
 
 @Component({
-  selector: 'page-search',
-  templateUrl: 'search.html'
+  selector: 'page-tabs-history',
+  templateUrl: 'tabs-history.html'
 })
-export class SearchPage {
-  
+export class HistoryPage {
+
   currentItems: any = [];
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public items: Items) { }
