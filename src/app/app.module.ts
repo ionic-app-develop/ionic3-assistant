@@ -16,6 +16,7 @@ import { MyPage } from '../pages/tabs-my/tabs-my';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 
+import { Authentication } from '../providers/authentication';
 import { Api } from '../providers/api';
 import { Items } from '../mocks/providers/items';
 import { Settings } from '../providers/settings';
@@ -90,6 +91,7 @@ export function provideSettings(storage: Storage) {
     TutorialPage
   ],
   providers: [
+    Authentication,
     Api,
     Items,
     User,

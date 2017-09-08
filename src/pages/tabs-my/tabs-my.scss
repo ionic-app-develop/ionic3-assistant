@@ -1,3 +1,39 @@
-page-settings {
-
+page-my {
+  .userInfo {
+    width: 100%;
+    box-shadow: 0 0 4px #c4c6c8;
+    padding: 4%;
+    margin: 8px 0;
+    overflow: hidden;
+    background: #fff;
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 999999px;
+      float: left;
+    }
+    .userInfo_name {
+      float: left;
+      margin-left: 10px;
+    }
+    h5 {
+      margin: 0 !important;
+      line-height: 25px;
+      color: #979797;
+    }
+    p {
+      margin: 0 !important;
+      line-height: 25px;
+      color: #c4c4c4;
+    }
+  }
+  ion-content {
+    background-color: #f2f4f7 !important;
+  }
+  ion-list {
+    box-shadow: 0 0 4px #c4c6c8;
+  }
+  .item-md {
+    color: #797979 !important;
+  }
 }

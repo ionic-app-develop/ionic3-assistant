@@ -8,38 +8,33 @@
 
 <ion-content>
 
-  <form [formGroup]="form" *ngIf="settingsReady">
-    <ion-list *ngIf="page == 'main'">
-      <ion-item>
-        <ion-label>{{ 'SETTINGS_OPTION1' | translate }}</ion-label>
-        <ion-toggle formControlName="option1"></ion-toggle>
-      </ion-item>
+  <section class="userInfo">
+    <ion-avatar item-start>
+      <img [src]="profilePic" />
+    </ion-avatar>
+    <section class="userInfo_name">
+      <h5>{{name}}</h5>
+    </section>
+  </section>
 
-      <ion-item>
-        <ion-label>{{ 'SETTINGS_OPTION2' | translate }}</ion-label>
-        <ion-input formControlName="option2"></ion-input>
-      </ion-item>
+  <ion-list no-border>
 
-      <ion-item>
-        <ion-label>{{ 'SETTINGS_OPTION3' | translate }}</ion-label>
-        <ion-select formControlName="option3">
-          <ion-option value="1" checked="true">1</ion-option>
-          <ion-option value="2">2</ion-option>
-          <ion-option value="3">3</ion-option>
-        </ion-select>
-      </ion-item>
-
-      <button ion-item [navPush]="subSettings" [navParams]="profileSettings">
-        {{ 'SETTINGS_PROFILE_BUTTON' | translate }}
-      </button>
-    </ion-list>
-
-    <ion-list *ngIf="page == 'profile'">
-      <ion-item>
-        <ion-label>{{ 'SETTINGS_OPTION4' | translate }}</ion-label>
-        <ion-input formControlName="option4"></ion-input>
-      </ion-item>
-    </ion-list>
-  </form>
+    <ion-item>
+      <ion-icon name='eye' item-left color="h"></ion-icon>
+      我的关注
+    </ion-item>
+    <ion-item>
+      <ion-icon name='star' item-left color="h"></ion-icon>
+      我的收藏
+    </ion-item>
+    <ion-item>
+      <ion-icon name='settings' item-left color="h"></ion-icon>
+      设置
+    </ion-item>
+    <ion-item (click)="out();">
+      <ion-icon name='exit' item-left color="h"></ion-icon>
+      退出
+    </ion-item>
+  </ion-list>
 
 </ion-content>
