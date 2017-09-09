@@ -1,5 +1,5 @@
 /**
- * Created by DELL on 9/8/2017.
+ * Created by Alex on 9/8/2017.
  */
 import {Injectable} from '@angular/core';
 import {Http, RequestOptions, URLSearchParams, Response} from '@angular/http';

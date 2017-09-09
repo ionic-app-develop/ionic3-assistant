@@ -22,6 +22,8 @@ import { Items } from '../mocks/providers/items';
 import { Settings } from '../providers/settings';
 import { User } from '../providers/user';
 
+import { UserService } from '../providers/mockService/user_service';
+
 import { Camera } from '@ionic-native/camera';
 import { GoogleMaps } from '@ionic-native/google-maps';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -95,6 +97,7 @@ export function provideSettings(storage: Storage) {
     Api,
     Items,
     User,
+    UserService,
     Camera,
     GoogleMaps,
     SplashScreen,
